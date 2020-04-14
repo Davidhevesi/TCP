@@ -13,7 +13,7 @@
           <button
             @click="isOpen = !isOpen"
             type="button"
-            class="px-2 text-gray-500 hover:text-white focus:outline-none focus:text-white"
+            class="px-2 text-gray-500 hover:text-white focus:outline-none focus:text-white border rounded"
           >
             <svg
               class="h-6 w-6 fill-current"
@@ -40,26 +40,28 @@
         class="px-2 pt-2 pb-5 sm:block sm:flex mt-2 mr-10"
       >
         <g-link
-          class="nav__link text-white block hover:bg-gray-800"
+          class="nav__link text-white block  rounded hover:bg-gray-800"
           to="/about/"
           >About</g-link
         >
 
         <g-link
-          class="nav__link text-white block hover:bg-gray-800"
+          class="nav__link text-white block rounded hover:bg-gray-800"
           to="/services/"
           >Services</g-link
         >
         <g-link
-          class="nav__link text-white block hover:bg-gray-800"
+          class="nav__link text-white block rounded hover:bg-gray-800"
           to="/portfolio/"
           >Portfolio</g-link
         >
-        <g-link class="nav__link text-white block hover:bg-gray-800" to="/faqs/"
+        <g-link
+          class="nav__link text-white rounded block hover:bg-gray-800"
+          to="/faqs/"
           >FAQ'S</g-link
         >
         <g-link
-          class="nav__link text-white block hover:bg-gray-800"
+          class="nav__link text-white block rounded hover:bg-gray-800"
           to="/contact/"
           >Contact</g-link
         >
