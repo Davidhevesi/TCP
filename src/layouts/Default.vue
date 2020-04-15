@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-screen-2xl m-auto">
-    <header class="bg-gray-900 mb-6 sm:flex sm:justify-between sm:">
-      <div class="flex justify-between bg-gray-900 px-4 py-3 mr-10">
+    <header class="bg-gray-900 mb-6 sm:flex sm:justify-between">
+      <div class="flex justify-between bg-gray-900 px-4 py-3 mr-2">
         <span
           class="shadow-outline px-1 py-1 font-semibold text-xl tracking-tight text-gray-100"
         >
